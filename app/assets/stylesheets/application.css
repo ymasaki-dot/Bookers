@@ -1,0 +1,114 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#notice {
+  margin: 30px 50px;
+  color : #009900;
+}
+
+.top-heading {
+  margin: 20px;
+}
+
+.top-text > p {
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0 0 30px 50px;
+}
+
+.top-link,
+.show-edit-link {
+  color: #6c6b6b
+}
+
+.top-link:hover,
+.show-edit-link:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+.index-heading {
+  margin: 20px 20px 0 20px;
+}
+
+.index-link {
+  color: #000;
+}
+
+.index-link:visited {
+  color: #6c6b6b
+}
+
+table {
+  margin: 0 20px 0 20px;
+}
+
+th {
+  text-align: center;
+}
+
+td {
+  padding: 5px;
+}
+
+.form-heading {
+    margin: 20px 20px 0 20px;
+}
+
+.form-book {
+   margin: 10px 20px 0 20px;
+}
+
+.text-title {
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+border: 1px solid #ffffff;
+box-shadow: 0 0.4px 0.4px 0;
+}
+
+.text-body {
+  margin-bottom: 10px;
+}
+
+.submit {
+  background-color: #fff;
+  border-radius : 10%;
+  text-align    : center;
+  padding       : 3px 3px; 
+  font-size: 10px;
+  border: 1px solid #DDD;
+}
+
+.show-title,
+.show-body {
+  margin: 0 0 40px 50px;
+}
+
+.show-link-box {
+  margin: 0 0 0 20px;
+}
+
+
+.edit-link-box {
+  margin: 10px 0 0 20px
+}

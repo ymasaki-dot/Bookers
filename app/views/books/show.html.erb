@@ -1,0 +1,6 @@
+<p id="notice"><%= notice %></p>
+<p class="show-title"><span class="bold"><strong>Title: </strong></span><%= @book.title %></p>
+<p class="show-body"><span class="bold"><strong>Body: </strong></span><%= @book.body%></p>
+
+<p class="show-link-box"><%= link_to "Edit",edit_book_path(@book), class:"show-edit-link"%> | 
+<%= link_to "Back",books_path, class:"show-edit-link" %></p>
